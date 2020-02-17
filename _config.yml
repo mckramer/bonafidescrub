@@ -16,9 +16,12 @@ author: Cam Kramer
 twitter_username: BonafideScrub
 
 # Build settings
-theme: jekyll-theme-clean-blog
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

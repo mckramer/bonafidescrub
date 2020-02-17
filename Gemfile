@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 3.6"
+gem "github-pages"
+gem "jekyll"
 gem "jekyll-theme-clean-blog"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -21,4 +22,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-
