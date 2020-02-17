@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+
+$font-family-brand: Bungee, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@import "styles";
+
+#mainNav .navbar-brand,
+.masthead .page-heading > h1 {
+  font-family: $font-family-brand;
+}
+
+
